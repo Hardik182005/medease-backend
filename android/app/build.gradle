@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services' // ✅ Firebase plugin
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace "com.example.medeasee"
+    compileSdk 35 // ✅ Latest SDK
+
+    defaultConfig {
+        applicationId "com.example.medeasee"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true // ✅ Optional if you hit 64K method limit
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // ✅ Java 17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    buildTypes {
+        release {
+            shrinkResources false       // ✅ disable resource shrinking for now
+            minifyEnabled false         // ✅ no proguard/minification
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}

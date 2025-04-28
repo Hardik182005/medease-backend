@@ -1,0 +1,2 @@
+C:/Users/hardi/medeasee/android/app/.cxx/RelWithDebInfo/g1365v6g/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/hardi/medeasee/android/app/.cxx/RelWithDebInfo/g1365v6g/armeabi-v7a/CMakeFiles/rebuild_cache.dir

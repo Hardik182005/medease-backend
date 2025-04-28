@@ -1,0 +1,2 @@
+C:/Users/hardi/medeasee/android/app/.cxx/RelWithDebInfo/g1365v6g/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/hardi/medeasee/android/app/.cxx/RelWithDebInfo/g1365v6g/x86_64/CMakeFiles/rebuild_cache.dir

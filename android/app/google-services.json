@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "71986374792",
+    "project_id": "medease-79081",
+    "storage_bucket": "medease-79081.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71986374792:android:7b591e864a98b38034973d",
+        "android_client_info": {
+          "package_name": "com.example.medeasee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71986374792-eadmd8sjkh6amh9i7qr640t30akuqgfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medeasee",
+            "certificate_hash": "b2fcfac775b15cad027610bedd4ab4d143f62d3a"
+          }
+        },
+        {
+          "client_id": "71986374792-aqkcp0891giecr01q7juj73g8u044rbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9u0mgqCxHOYY159QkbHhKNj_j8T64jSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71986374792-aqkcp0891giecr01q7juj73g8u044rbj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "71986374792-u3n3pm9kav4uun7766lgdptm6tk3ng5e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medeasee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
